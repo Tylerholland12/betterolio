@@ -1,5 +1,5 @@
 <p align="center">
-<center><h1>Betterolio</h1></center>
+<h1><center>Betterolio</center></h1>
 <br>
 <br>
 
