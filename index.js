@@ -1,3 +1,4 @@
+import './style.css';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
@@ -105,3 +106,19 @@ function moveCamera() {
 
 document.body.onscroll = moveCamera;
 moveCamera();
+
+// Animation Loop
+
+function animate() {
+  requestAnimationFrame(animate);
+
+  torus.rotation.x += 0.01;
+  torus.rotation.y += 0.005;
+  torus.rotation.z += 0.01;
+
+  moon.rotation.x += 0.005;
+
+  renderer.render(scene, camera);
+}
+
+animate();
