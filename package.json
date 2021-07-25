@@ -10,6 +10,7 @@
   "author": "Tyler",
   "license": "ISC",
   "dependencies": {
-    "three": "^0.130.1"
+    "three": "^0.130.1",
+    "vite": "^2.4.3"
   }
 }
